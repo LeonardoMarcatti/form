@@ -1,3 +1,12 @@
+$(document).on('load', function(){
+    $('#m').prop('checked', false);
+    $('#english').prop('checked', false);
+    $('#spanish').prop('checked', false);
+    $('#franch').prop('checked', false);
+    $('#german').prop('checked', false);
+    $('#f').prop('checked', false);
+
+});
 $('#senha2').on('blur', 
     function() {
         let senha = $('#senha').val();

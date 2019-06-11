@@ -14,13 +14,17 @@
         "Sua senha: " . $_POST['senha'] . "<br>" .
         "Seu sexo: " . $_POST['sex'] . "<br>"  .
         "Sua religião: " . $_POST['religiao'] . "<br>".
-        "Linguas: "; 
-        foreach ($_POST['idioma'] as $idioma) {
-            if (!empty($idioma)) {
-                echo $idioma . " ";
-            }
+        'Linguas: '; 
+        
+        if (!empty($_POST['idioma'])) {
+            foreach ($_POST['idioma'] as $key => $val) {
+                echo $val . ' ';
+            };
         }
-
+        else {
+            echo 'Nenhuma língua.';
+        }
+        
         echo "<br><br>";
         echo "<h3>Sobre seu arquivo</h3>" . 'Nome: ' . ($_FILES['file']['name']) . "<br>"
         . 'Tipo: ' . ($_FILES['file']['type']) . "<br>"

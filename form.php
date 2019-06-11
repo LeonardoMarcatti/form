@@ -46,19 +46,19 @@
             <div class="form-group">
                 <label for="idiomas" class="form-check-label">Idiomas:</label>
                     <div class="form-check">
-                        <input type="checkbox" name="idioma[]" class="form-check-input" value="Inglês">
+                        <input type="checkbox" name="idioma[]" id="english" class="form-check-input" value="Inglês">
                         <label for="ingles" class="form-check-label">Inglês</label>
                     </div>
                     <div class="form-check">
-                        <input type="checkbox" name="idioma[]" class="form-check-input" value="Espanhol">
+                        <input type="checkbox" name="idioma[]" id="spanish" class="form-check-input" value="Espanhol">
                         <label for="espanhol" class="form-check-label">Espanhol</label>
                     </div>
                     <div class="form-check">
-                        <input type="checkbox" name="idioma[]" class="form-check-input" value="Francês">
+                        <input type="checkbox" name="idioma[]" id="french" class="form-check-input" value="Francês">
                         <label for="ingles" class="form-check-label">Francês</label>
                     </div>
                     <div class="form-check">
-                        <input type="checkbox" name="idioma[]" class="form-check-input" value="Alemão">
+                        <input type="checkbox" name="idioma[]" id="german" class="form-check-input" value="Alemão">
                         <label for="espanhol" class="form-check-label">Alemão</label>
                     </div>
             </div>
